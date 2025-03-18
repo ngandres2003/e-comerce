@@ -27,10 +27,10 @@ export default function SiteHeader() {
                 <Link to="/" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
                   Inicio
                 </Link>
-                <Link to="#" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
+                <Link to="/" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
                   Vinilos
                 </Link>
-                <Link to="#" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
+                <Link to="/" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
                   Artistas
                 </Link>
                 <Link to="#" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
@@ -46,10 +46,10 @@ export default function SiteHeader() {
             <Link to="/" className="font-medium transition-colors hover:text-primary">
               Inicio
             </Link>
-            <Link to="#" className="font-medium text-muted-foreground transition-colors hover:text-primary">
+            <Link to="/" className="font-medium text-muted-foreground transition-colors hover:text-primary">
               Vinilos
             </Link>
-            <Link to="#" className="font-medium text-muted-foreground transition-colors hover:text-primary">
+            <Link to="/" className="font-medium text-muted-foreground transition-colors hover:text-primary">
               Artistas
             </Link>
             <Link to="#" className="font-medium text-muted-foreground transition-colors hover:text-primary">
