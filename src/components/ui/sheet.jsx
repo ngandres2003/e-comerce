@@ -57,7 +57,7 @@ const SheetContent = ({ children, side = "right", className, open, onOpenChange 
       <div
         ref={ref}
         className={cn(
-          "fixed bg-background p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300",
+          "fixed bg-white/80 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300",
           sideStyles[side],
           open ? "translate-x-0" : side === "left" ? "-translate-x-full" : "translate-x-full",
           className,
