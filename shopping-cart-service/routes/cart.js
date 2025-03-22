@@ -41,7 +41,6 @@ router.post("/:userId/add", async (req, res) => {
     res.status(500).send("Server error")
   }
 })
-
 // Get User Cart
 router.get("/:userId", async (req, res) => {
   const { userId } = req.params
